@@ -19,7 +19,7 @@
         /// </summary>
         public static Task Start()
         {
-            var botClient = new TelegramBotClient("7000352523:AAHnONMeCSXfpROWnoGFkzCs6kOEuTUiBBc");
+            var botClient = new TelegramBotClient("<Your token>");
 
             using CancellationTokenSource cts = new();
 
